@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-01---front">
+        <li class="text">01 - Front</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-02-entrance-porch">
+        <li class="text">02-Entrance Porch</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-03-dropoff">
+        <li class="text">03-Dropoff</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-04-stair-b">
+        <li class="text">04-Stair B</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-05-carpark">
+        <li class="text">05-Carpark</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-06-genset-a">
+        <li class="text">06-Genset A</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-07-genset-b">
+        <li class="text">07-Genset B</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-08-terrace-2a">
+        <li class="text">08-Terrace 2A</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-09-terrace-2b">
+        <li class="text">09-Terrace 2B</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-10-terrace-2c">
+        <li class="text">10-Terrace 2C</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-11-ticket-1">
+        <li class="text">11-Ticket 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-12-male-wc-2">
+        <li class="text">12-Male WC 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-13-male-player">
+        <li class="text">13-Male Player</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-14-terrace-3-back">
+        <li class="text">14-Terrace 3 (Back)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-15-female-player">
+        <li class="text">15-Female Player</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-16-female-wc-3">
+        <li class="text">16-Female WC 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-17-ticket-2">
+        <li class="text">17-Ticket 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-18-terrace-4a">
+        <li class="text">18-Terrace 4A</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-19-terrace-4b">
+        <li class="text">19-Terrace 4B</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-20-store-4">
+        <li class="text">20-Store 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-21-female-wc-4">
+        <li class="text">21-Female WC 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-22-office-a">
+        <li class="text">22-Office A</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-23-ext360_stair-1">
+        <li class="text">23-EXT360_Stair 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-01-entrance-lobby">
+        <li class="text">01-Entrance Lobby</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-02-stair-2">
+        <li class="text">02-Stair 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-03-conference-a">
+        <li class="text">03-Conference A</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-04-conference-b">
+        <li class="text">04-Conference B</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-05-male-wc1a">
+        <li class="text">05-Male WC1A</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-06-male-wc1b">
+        <li class="text">06-Male WC1B</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-08-stairs-1">
+        <li class="text">08-Stairs 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-09-office">
+        <li class="text">09-Office</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-11-female-wc4a">
+        <li class="text">11-Female WC4A</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-01-court-side-1">
+        <li class="text">01-Court Side 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-02-court">
+        <li class="text">02-Court</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-03-court-side-2">
+        <li class="text">03-Court Side 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-04-court-side-3">
+        <li class="text">04-Court Side 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-05-corner-stair-5">
+        <li class="text">05-Corner (Stair 5)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-06-corner-pump">
+        <li class="text">06-Corner (Pump)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-07-corner-ramp">
+        <li class="text">07-Corner (Ramp)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-08-corner-stair-4">
+        <li class="text">08-Corner (Stair 4)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-09-court-side-4">
+        <li class="text">09-Court Side 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-01-vip-stand-a">
+        <li class="text">01-VIP Stand A</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-02-stair-1-top">
+        <li class="text">02-Stair 1 Top</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-03-control-a">
+        <li class="text">03-Control A</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-04-control-b">
+        <li class="text">04-Control B</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-05-control-c">
+        <li class="text">05-Control C</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-06-stair-2-top">
+        <li class="text">06-Stair 2 Top</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-07-vip-stand-b">
+        <li class="text">07-VIP Stand B</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-08-canteen">
+        <li class="text">08-Canteen</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
