@@ -1905,7 +1905,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "MBKS Stadium 360° VR Tour - 2023",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
