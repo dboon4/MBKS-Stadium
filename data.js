@@ -40,7 +40,7 @@ var APP_DATA = {
     },
     {
       "id": "1-02-entrance-porch",
-      "name": "02-Entrance Porch",
+      "name": "**02-Entrance Porch**",
       "levels": [
         {
           "tileSize": 256,
@@ -882,7 +882,7 @@ var APP_DATA = {
     },
     {
       "id": "23-01-entrance-lobby",
-      "name": "01-Entrance Lobby",
+      "name": "**01-Entrance Lobby**",
       "levels": [
         {
           "tileSize": 256,
@@ -1248,7 +1248,7 @@ var APP_DATA = {
     },
     {
       "id": "32-01-court-side-1",
-      "name": "01-Court Side 1",
+      "name": "**01-Court Side 1**",
       "levels": [
         {
           "tileSize": 256,
@@ -1330,7 +1330,7 @@ var APP_DATA = {
     },
     {
       "id": "34-03-court-side-2",
-      "name": "03-Court Side 2",
+      "name": "**03-Court Side 2**",
       "levels": [
         {
           "tileSize": 256,
@@ -1352,8 +1352,8 @@ var APP_DATA = {
       ],
       "faceSize": 1488,
       "initialViewParameters": {
-        "yaw": -0.11948607774004749,
-        "pitch": -0.1461718131019527,
+        "yaw": 3.042056441084738,
+        "pitch": -0.13547081771770308,
         "fov": 1.3474042771833745
       },
       "linkHotspots": [
